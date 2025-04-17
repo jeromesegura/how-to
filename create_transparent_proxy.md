@@ -1,5 +1,7 @@
 # Create a transparent proxy
 
+In this how-to, we show how to create a transparent proxy using mitmproxy. The use case here is one where we want to capture traffic without making any configuration changes on our client (i.e. manually setting up a proxy within the OS).
+
 ## Scenario #1: Debian and Windows, no VPN
 
 Enable IP forwarding
